@@ -16,11 +16,11 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="bg-color">
+<body class="bg-black">
     <header>
-        <div class="container">
-            <nav>
-                <div class="d-flex align-items-center justify-content-between text-center m-0 p-0">
+        <nav style="border-bottom: 1.5px solid #35414C;">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between text-center m-0 p-0 py-3">
                     <img src="./assets/images/iDox.ai-logo.png" alt="#" class="m-0 p-0 object-fit-contain">
                     <label for="menuicon" class="menu cursor-pointer">
                         <span></span>
@@ -29,23 +29,23 @@
                     </label>
                     <input type="checkbox" id="menuicon" hidden>
                     <ul
-                        class="d-flex align-items-center justify-content-center text-center mobile-view z-index-5 gap-5">
-                        <li class="li fs-15 fw-400 ff-plus text-white m-0 p-0">Redact</li>
-                        <li class="li fs-15 fw-400 ff-plus text-white m-0 p-0">Extract</li>
-                        <li class="li fs-15 fw-400 ff-plus text-white m-0 p-0">Detect</li>
-                        <li class="li fs-15 fw-400 ff-plus text-white m-0 p-0">Compare</li>
-                        <li><button class="btn-1 fs-16 fw-600 ff-plus text-white Try-now">Try now</button></li>
+                        class="d-flex align-items-center justify-content-center text-center mobile-view z-index-5 gap-5 m-0 p-0">
+                        <li class="text-uppercase fs-15 fw-400 ff-plus text-grey-white m-0 p-0">Redact</li>
+                        <li class="text-uppercase fs-15 fw-400 ff-plus text-grey-white m-0 p-0">Extract</li>
+                        <li class="text-uppercase fs-15 fw-400 ff-plus text-grey-white m-0 p-0">Detect</li>
+                        <li class="text-uppercase fs-15 fw-400 ff-plus text-grey-white m-0 p-0">Compare</li>
+                        <li><button class="common-btn fs-16 fw-600 ff-plus text-white Try-now">Try now</button></li>
                     </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
-    <section class="bg-img-header bg-color py-5 overflow-hidden">
+    <section class="bg-img-header overflow-hidden">
         <div class="container">
-            <div class="row d-flex align-items-center justify-content-center">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                    <div class="d-flex flex-column">
-                        <div class="d-flex align-items-center">
+            <div class="row d-flex align-items-center justify-content-center py-5">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-12 d-flex align-items-center">
+                    <div class="d-flex justify-content-center flex-column">
+                        <div class="d-flex align-items-center gap-2">
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="111" height="3" viewBox="0 0 111 3"
                                     fill="none">
@@ -54,31 +54,34 @@
                                         fill="#0389FF" />
                                 </svg>
                             </span>
-                            <h1 class="fs-32 fw-300 ff-plus text-white m-0 p-0">The world’s<span
-                                    class="number fs-32 fw-300 ff-plus font-1">#1</span></h1>
+                            <p class="fs-32 fw-300 ff-plus text-grey-white m-0 p-0">The world’s<span
+                                    class="number fs-32 fw-300 ff-plus m-0 p-0">#1</span></p>
                         </div>
-                        <h6 class="fs-48 fw-700 ff-plus text-white m-0 p-0">AI powered document compliance solution
-                        </h6>
+                        <p class="fs-48 fw-700 ff-plus text-white m-0 p-0 max-width-5">AI powered document compliance
+                            solution</p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                    <h6 class="fs-16 fw-400 ff-plus text-white m-0 p-0 max-width-8">iDox.ai provides the world’s most
-                        advanced AI powered redaction solution for organizations to scan and detect within document
-                        management systems, folders, and multitude offile sources.</h6>
-                    <ul class="p-0 mt-5">
-                        <li><button class="btn-1 fs-16 fw-600 ff-plus text-white Request-Demo">Request Demo</button>
-                        </li>
-                    </ul>
+                <div class="col-lg-5 col-md-5 col-sm-5 col-12 d-flex align-items-center">
+                    <div class="d-flex flex-column">
+                        <p class="fs-16 fw-normal ff-plus text-grey-white m-0 p-0 max-width-8">iDox.ai provides the
+                            world’s most advanced AI powered redaction solution for organizations to scan and detect
+                            within document management systems, folders, and multitude offile sources.</p>
+                        <ul class="m-0 p-0 mt-5">
+                            <li><button class="common-btn fs-16 fw-600 ff-plus text-white Request-Demo">Request
+                                    Demo</button>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 py-5 pt-5 pb-5">
-                <img class="overflow-hidden w-100 object-fit-contain" src="./assets/images/header-img.png" alt="#">
+                <div class="col-12 py-5">
+                    <img class="overflow-hidden w-100 object-fit-contain" src="./assets/images/header-img.png" alt="#">
+                </div>
             </div>
         </div>
     </section>
     <section class="overflow-hidden">
         <div class="container">
-            <h6 class="fs-20 fw-300 ff-plus pt-5 pb-5 text-center text-white m-0 p-0">In collaboration with</h6>
+            <h2 class="fs-20 fw-300 ff-plus text-center text-grey-white m-0 p-0 py-5">In collaboration with</h2>
             <div class="cursor-pointer">
                 <div class="slider">
                     <img src="./assets/images/NHS.png" alt="#" class="object-fit-contain">
@@ -102,19 +105,18 @@
         </div>
     </section>
     <section class="overflow-hidden">
-        <div class="container py-5 pt-5 pb-5">
+        <div class="container py-5">
             <div class="row d-flex align-items-center justify-content-center">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                     <img class="w-100 overflow-hidden object-fit-contain" src="./assets/images/image-AI.png" alt="#">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                     <h2 class="fs-44 fw-500 ff-plus text-white max-width m-0 p-0">Compliance Security Trust</h2>
-                    <h6 class="fs-16 fw-400 ff-plus text-white max-width-2 m-0 p-0 pt-3">Posuere ultrices aliquet risus
-                        malesuada viverra nec praesent. Sed nisl facilisi augue.</h6>
-                    <ul class="p-0 mt-5">
-                        <li><button class="btn-1 fs-16 fw-600 ff-plus text-white watch-demo-video">watch demo
-                                video</button>
-                        </li>
+                    <p class="fs-16 fw-400 ff-plus text-grey-white max-width-2 m-0 p-0 pt-3">Posuere ultrices aliquet
+                        risus malesuada viverra nec praesent. Sed nisl facilisi augue.</p>
+                    <ul class="m-0 p-0 mt-5">
+                        <li><button class="common-btn fs-16 fw-600 ff-plus text-white watch-demo-video">watch demo
+                                video</button></li>
                     </ul>
                 </div>
             </div>
@@ -122,28 +124,27 @@
     </section>
     <section class="overflow-hidden">
         <div class="container">
-            <div class="row d-flex align-items-center justify-content-center mt-5 mb-5">
+            <div class="row d-flex align-items-center justify-content-center px-5 py-5">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                     <h2 class="fs-44 fw-500 ff-plus text-white m-0 p-0">How we can help?</h2>
-                    <h6 class="fs-16 fw-400 ff-plus text-white max-width-2 m-0 p-0">Whether you handle financial,
+                    <p class="fs-16 fw-400 ff-plus text-grey-white max-width-2 m-0 p-0">Whether you handle financial,
                         government, healthcare, or legal information, iDox.ai allows organizations to reduce risk of
                         human error, combat time sensitive redaction requests, avoid costly penalties at a fraction of
-                        the price.</h6>
-                    <ul class="p-0 mt-5">
-                        <li><button class="btn-1 fs-16 fw-600 ff-plus text-white watch-demo-video">watch demo
-                                video</button>
-                        </li>
+                        the price.</p>
+                    <ul class="m-0 p-0 mt-5">
+                        <li><button class="common-btn fs-16 fw-600 ff-plus text-white watch-demo-video">watch demo
+                                video</button></li>
                     </ul>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                     <div class="accordion d-flex flex-column" id="accordionExample">
                         <div class="accordion-item">
-                            <h2 class="accordion-header">
+                            <p class="accordion-header">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     Time-Saving AI Integrations
                                 </button>
-                            </h2>
+                            </p>
                             <div id="collapseOne" class="accordion-collapse collapse show"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body position-relative">
@@ -155,12 +156,12 @@
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header">
+                            <p class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapsetwo" aria-expanded="false" aria-controls="collapsetwo">
                                     Enterprise-Level Scalability
                                 </button>
-                            </h2>
+                            </p>
                             <div id="collapsetwo" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body position-relative">
@@ -172,12 +173,12 @@
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header">
+                            <p class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapsethree" aria-expanded="false"
                                     aria-controls="collapsethree">Cloud-Based For Multiple Locations
                                 </button>
-                            </h2>
+                            </p>
                             <div id="collapsethree" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body position-relative">
@@ -189,12 +190,12 @@
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header">
+                            <p class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapsefour" aria-expanded="false"
                                     aria-controls="collapsefour">Collaborative Work Among Teams
                                 </button>
-                            </h2>
+                            </p>
                             <div id="collapsefour" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body position-relative">
@@ -206,12 +207,12 @@
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header">
+                            <p class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
                                     Proactive Risk Assessment Reports
                                 </button>
-                            </h2>
+                            </p>
                             <div id="collapsefive" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body position-relative">
@@ -223,12 +224,12 @@
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header">
+                            <p class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">High
                                     Accuracy To Avoid Oversights
                                 </button>
-                            </h2>
+                            </p>
                             <div id="collapsesix" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body position-relative">
@@ -248,8 +249,8 @@
         <div class="container">
             <div class="row d-flex align-items-center justify-content-center">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                    <h6 class="fs-44 fw-500 ff-plus text-white pb-4">How We Bring Value</h6>
-                    <div class="card-1 mb-3">
+                    <h2 class="fs-44 fw-500 ff-plus text-grey-white py-5 m-0 p-0">How We Bring Value</h2>
+                    <div class="sec-5-card mb-3">
                         <div class="d-flex align-items-center text-center gap-3">
                             <span class="m-0 p-0">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="52" height="54" viewBox="0 0 52 54"
@@ -261,10 +262,10 @@
                                         fill="#0389FF" />
                                 </svg>
                             </span>
-                            <h2 class="fs-18 fw-500 ff-plus text-white m-0 p-0">High Accuracy Rate</h2>
+                            <p class="fs-18 fw-500 ff-plus text-grey-white m-0 p-0">High Accuracy Rate</p>
                         </div>
                     </div>
-                    <div class="card-1 mb-3">
+                    <div class="sec-5-card mb-3">
                         <div class="d-flex align-items-center text-center gap-3">
                             <span class="m-0 p-0">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="52" height="54" viewBox="0 0 52 54"
@@ -276,10 +277,10 @@
                                         fill="#0389FF" />
                                 </svg>
                             </span>
-                            <h2 class="fs-18 fw-500 ff-plus text-white m-0 p-0">Time Saving</h2>
+                            <p class="fs-18 fw-500 ff-plus text-grey-white m-0 p-0">Time Saving</p>
                         </div>
                     </div>
-                    <div class="card-1 mb-3">
+                    <div class="sec-5-card mb-3">
                         <div class="d-flex align-items-center text-center gap-3">
                             <span class="m-0 p-0">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="52" height="54" viewBox="0 0 52 54"
@@ -291,10 +292,10 @@
                                         fill="#0389FF" />
                                 </svg>
                             </span>
-                            <h2 class="fs-18 fw-500 ff-plus text-white m-0 p-0">Cost Saving</h2>
+                            <p class="fs-18 fw-500 ff-plus text-grey-white m-0 p-0">Cost Saving</p>
                         </div>
                     </div>
-                    <div class="card-1 mb-3">
+                    <div class="sec-5-card mb-3">
                         <div class="d-flex align-items-center text-center gap-3">
                             <span class="m-0 p-0">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="52" height="54" viewBox="0 0 52 54"
@@ -306,7 +307,7 @@
                                         fill="#0389FF" />
                                 </svg>
                             </span>
-                            <h2 class="fs-18 fw-500 ff-plus text-white m-0 p-0">Labor Hours Gained Back</h2>
+                            <p class="fs-18 fw-500 ff-plus text-grey-white m-0 p-0">Labor Hours Gained Back</p>
                         </div>
                     </div>
                 </div>
@@ -318,70 +319,71 @@
     </section>
     <section class="overflow-hidden">
         <div class="container">
-            <h6 class="fs-44 fw-500 ff-plus text-center text-white m-0 p-0 pt-5 pb-5">Testimonials</h6>
+            <h2 class="fs-44 fw-500 ff-plus text-center text-white m-0 p-0 px-5 py-5">Testimonials</h2>
             <div class="slider-2">
-                <div class="card-2">
+                <div class="sec-6-card">
                     <div class="d-flex align-items-center justify-content-center text-center">
                         <img class="mt-3 mb-3 object-fit-contain" src="./assets/images/slider-hand-img.png" alt="#">
                     </div>
-                    <h6 class="fs-20 fw-400 ff-plus text-white pt-3 pb-3 max-width-4 m-0 p-0">“Quick, well designed,
+                    <p class="fs-20 fw-400 ff-plus text-white pt-3 pb-3 max-width-4 m-0 p-0">“Quick, well designed,
                         and saved our team over 97% of time. Our team was able to meet subject access requests and
-                        meet GDPR mandates using the iDox.ai redaction solution.”</h6>
-                    <h2 class="font-8 fs-14 fw-400 ff-plus text-center m-0 p-0">Carl Bevan</h2>
+                        meet GDPR mandates using the iDox.ai redaction solution.”</p>
+                    <p class="font-8 fs-14 fw-400 ff-plus text-center text-white m-0 p-0">Carl Bevan</p>
                 </div>
-                <div class="card-2">
+                <div class="sec-6-card">
                     <div class="d-flex align-items-center justify-content-center text-center">
                         <img class="mt-3 mb-3 object-fit-contain" src="./assets/images/slider-hand-img.png" alt="#">
                     </div>
-                    <h6 class="fs-20 fw-400 ff-plus text-white pt-3 pb-3 max-width-4 m-0 p-0">“Quick, well designed,
+                    <p class="fs-20 fw-400 ff-plus text-white pt-3 pb-3 max-width-4 m-0 p-0">“Quick, well designed,
                         and saved our team over 97% of time. Our team was able to meet subject access requests and
-                        meet GDPR mandates using the iDox.ai redaction solution.”</h6>
-                    <h2 class="font-8 fs-14 fw-400 ff-plus text-center m-0 p-0">Carl Bevan</h2>
+                        meet GDPR mandates using the iDox.ai redaction solution.”</p>
+                    <p class="font-8 fs-14 fw-400 ff-plus text-center text-white m-0 p-0">Carl Bevan</p>
                 </div>
-                <div class="card-2">
+                <div class="sec-6-card">
                     <div class="d-flex align-items-center justify-content-center text-center">
                         <img class="mt-3 mb-3 object-fit-contain" src="./assets/images/slider-hand-img.png" alt="#">
                     </div>
-                    <h6 class="fs-20 fw-400 ff-plus text-white pt-3 pb-3 max-width-4 m-0 p-0">“Quick, well designed,
+                    <p class="fs-20 fw-400 ff-plus text-white pt-3 pb-3 max-width-4 m-0 p-0">“Quick, well designed,
                         and saved our team over 97% of time. Our team was able to meet subject access requests and
-                        meet GDPR mandates using the iDox.ai redaction solution.”</h6>
-                    <h2 class="font-8 fs-14 fw-400 ff-plus text-center m-0 p-0">Carl Bevan</h2>
+                        meet GDPR mandates using the iDox.ai redaction solution.”</p>
+                    <p class="font-8 fs-14 fw-400 ff-plus text-center text-white m-0 p-0">Carl Bevan</p>
                 </div>
-                <div class="card-2">
+                <div class="sec-6-card">
                     <div class="d-flex align-items-center justify-content-center text-center">
                         <img class="mt-3 mb-3 object-fit-contain" src="./assets/images/slider-hand-img.png" alt="#">
                     </div>
-                    <h6 class="fs-20 fw-400 ff-plus text-white pt-3 pb-3 max-width-4 m-0 p-0">“Quick, well designed,
+                    <p class="fs-20 fw-400 ff-plus text-white pt-3 pb-3 max-width-4 m-0 p-0">“Quick, well designed,
                         and saved our team over 97% of time. Our team was able to meet subject access requests and
-                        meet GDPR mandates using the iDox.ai redaction solution.”</h6>
-                    <h2 class="font-8 fs-14 fw-400 ff-plus text-center m-0 p-0">Carl Bevan</h2>
+                        meet GDPR mandates using the iDox.ai redaction solution.”</p>
+                    <p class="font-8 fs-14 fw-400 ff-plus text-center text-white m-0 p-0">Carl Bevan</p>
                 </div>
-                <div class="card-2">
+                <div class="sec-6-card">
                     <div class="d-flex align-items-center justify-content-center text-center">
                         <img class="mt-3 mb-3 object-fit-contain" src="./assets/images/slider-hand-img.png" alt="#">
                     </div>
-                    <h6 class="fs-20 fw-400 ff-plus text-white pt-3 pb-3 max-width-4 m-0 p-0">“Quick, well designed,
+                    <p class="fs-20 fw-400 ff-plus text-white pt-3 pb-3 max-width-4 m-0 p-0">“Quick, well designed,
                         and saved our team over 97% of time. Our team was able to meet subject access requests and
-                        meet GDPR mandates using the iDox.ai redaction solution.”</h6>
-                    <h2 class="font-8 fs-14 fw-400 ff-plus text-center m-0 p-0">Carl Bevan</h2>
+                        meet GDPR mandates using the iDox.ai redaction solution.”</p>
+                    <p class="font-8 fs-14 fw-400 ff-plus text-center text-white m-0 p-0">Carl Bevan</p>
                 </div>
             </div>
         </div>
     </section>
     <section class="overflow-hidden">
         <div class="container">
-            <div class="row d-flex align-items-center justify-content-center mt-5 mb-5 pt-5 pb-5">
+            <div class="row d-flex align-items-center justify-content-center px-5 py-5">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                     <img class="overflow-hidden w-100 object-fit-contain" src="./assets/images/coins-image.png" alt="#">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                    <h6 class="fs-44 fw-500 ff-plus text-white max-width m-0 p-0 pb-2">We provide secure solutions
-                    </h6>
-                    <h6 class="fs-16 fw-400 ff-plus text-white m-0 p-0 max-width-2">For nationwide and global teams, our
-                        cloud-based solutions keep everyone on the same page, all backed by our SOC 2 and ISO 27001
-                        certifications.</h6>
-                    <ul class="p-0 mt-4">
-                        <li><button class="btn-1 fs-16 fw-600 ff-plus text-white Learn-more">Learn More</button></li>
+                    <p class="fs-44 fw-500 ff-plus text-white max-width m-0 p-0 pb-2">We provide secure solutions
+                    </p>
+                    <p class="fs-16 fw-400 ff-plus text-grey-white m-0 p-0 max-width-2">For nationwide and global teams,
+                        our cloud-based solutions keep everyone on the same page, all backed by our SOC 2 and ISO 27001
+                        certifications.</p>
+                    <ul class="m-0 p-0 mt-4">
+                        <li><button class="common-btn fs-16 fw-600 ff-plus text-white Learn-more">Learn More</button>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -389,9 +391,9 @@
     </section>
     <section class="position-relative overflow-hidden">
         <div class="container">
-            <h6 class="fs-44 fw-500 ff-plus text-white text-center m-0 p-0 pt-5 pb-2">How it works</h6>
-            <h6 class="fs-16 fw-400 ff-plus text-white text-center m-0 p-0 pb-5">Only 2 minutes redacting a 10 page
-                document</h6>
+            <h2 class="fs-44 fw-500 ff-plus text-white text-center m-0 p-0 py-3">How it works</h2>
+            <p class="fs-16 fw-400 ff-plus text-grey-white text-center m-0 p-0 py-4">Only 2 minutes redacting a 10 page
+                document</p>
             <div class="row d-flex align-items-center justify-content-center m-0 p-0">
                 <div class="col-xl-3 col-lg-4 col-sm-6 col-12 m-0 p-0">
                     <img src="./assets/images/image-1.png" alt="#" class="object-fit-contain">
@@ -420,14 +422,14 @@
                 </div>
             </div>
             <ul class="p-0 d-flex align-items-center justify-content-center text-center py-5">
-                <li><button class="btn-1 fs-16 fw-600 ff-plus text-white try-now">Try Now</button></li>
+                <li><button class="common-btn fs-16 fw-600 ff-plus text-white try-now">Try Now</button></li>
             </ul>
         </div>
     </section>
     <section class="overflow-hidden">
         <div class="container">
             <h2 class="fs-44 fw-500 ff-plus text-white text-center m-0 p-0">Our Integrations</h2>
-            <div class="row d-flex align-items-center justify-content-center mt-5 mb-5 py-5 px-5">
+            <div class="row d-flex align-items-center justify-content-center py-5">
                 <div class="col-xl-3 col-lg-4 col-sm-6 col-12 m-0 p-0">
                     <div class="mt-5 mb-5">
                         <img src="./assets/images/Google-drive.png" alt="#" class="m-0 p-0 object-fit-contain">
@@ -477,12 +479,13 @@
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                     <h2 class="fs-44 fw-500 ff-plus text-white max-width-5 m-0 p-0">Accelerate Your Enterprise’s
                         Document Redaction Efforts</h2>
-                    <h6 class="fs-16 fw-400 ff-plus text-white max-width-2 m-0 p-0">As your team carries out
+                    <p class="fs-16 fw-400 ff-plus text-grey-white max-width-2 m-0 p-0">As your team carries out
                         time-intensive manual redaction processes, there’s a trade-off between security and
                         efficiency. iDox.ai Redact offers the best of both worlds with thorough, automatic redactions.
-                    </h6>
-                    <ul class="p-0 mt-4">
-                        <li><button class="btn-1 fs-16 fw-600 ff-plus text-white Learn-more">Learn More</button></li>
+                    </p>
+                    <ul class="m-0 p-0 mt-4">
+                        <li><button class="common-btn fs-16 fw-600 ff-plus text-white Learn-more">Learn More</button>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
@@ -494,14 +497,13 @@
     </section>
     <section class="overflow-hidden">
         <div class="container">
-            <h6 class="fs-44 fw-500 ff-plus text-white text-center m-0 p-0 pt-5 pb-5">choose the plan best fits for
-                you
-            </h6>
+            <h2 class="fs-44 fw-500 ff-plus text-white text-center m-0 p-0 py-5">choose the plan best fits for
+                you</h2>
             <div class="row d-flex align-items-center justify-content-center">
                 <div
                     class="col-xl-4 col-lg-6 col-12 d-flex align-items-center justify-content-center flex-column m-0 p-0">
-                    <h6 class="fs-32 fw-600 ff-plus text-center text-white m-0 p-0">$0.99</h6>
-                    <h6 class="fs-20 fw-500 ff-plus text-center text-white m-0 p-0">7 Days</h6>
+                    <p class="fs-32 fw-600 ff-plus text-center text-white m-0 p-0">$0.99</p>
+                    <p class="fs-20 fw-500 ff-plus text-center text-white m-0 p-0">7 Days</p>
                     <div class="d-flex flex-column">
                         <div class="d-flex align-items-center text-center gap-4 pt-5 pb-3">
                             <span class="m-0 p-0">
@@ -511,7 +513,7 @@
                                         stroke-width="1.03148" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </span>
-                            <h2 class="fs-18 fw-400 ff-plus text-white m-0 p-0">50 pages analysis ( 7 days )</h2>
+                            <p class="fs-18 fw-400 ff-plus text-grey-white m-0 p-0">50 pages analysis ( 7 days )</p>
                         </div>
                         <div class="d-flex align-items-center text-center gap-4 pb-3">
                             <span class="m-0 p-0">
@@ -521,7 +523,7 @@
                                         stroke-width="1.03148" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </span>
-                            <h2 class="fs-18 fw-400 ff-plus text-white m-0 p-0">Share up to 2 users</h2>
+                            <p class="fs-18 fw-400 ff-plus text-grey-white m-0 p-0">Share up to 2 users</p>
                         </div>
                         <div class="d-flex align-items-center text-center gap-4 pb-3">
                             <span class="m-0 p-0">
@@ -531,17 +533,17 @@
                                         stroke-width="1.03148" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </span>
-                            <h6 class="fs-18 fw-400 ff-plus text-white m-0 p-0">After 7 day, auto renews plan</h6>
+                            <p class="fs-18 fw-400 ff-plus text-grey-white m-0 p-0">After 7 day, auto renews plan</p>
                         </div>
                         <ul class="d-flex align-items-center justify-content-center text-center mt-5 mb-5">
-                            <li><button class="btn-1 fs-16 fw-600 ff-plus text-white select">select</button></li>
+                            <li><button class="common-btn fs-16 fw-600 ff-plus text-white select">select</button></li>
                         </ul>
                     </div>
                 </div>
                 <div
                     class="col-xl-4 col-lg-6 col-12 d-flex align-items-center justify-content-center flex-column m-0 p-0">
-                    <h6 class="fs-32 fw-600 ff-plus text-center text-white m-0 p-0">$490</h6>
-                    <h6 class="fs-20 fw-500 ff-plus text-center text-white m-0 p-0">Business</h6>
+                    <p class="fs-32 fw-600 ff-plus text-center text-white m-0 p-0">$490</p>
+                    <p class="fs-20 fw-500 ff-plus text-center text-white m-0 p-0">Business</p>
                     <div class="d-flex flex-column pt-5">
                         <div class="d-flex align-items-center text-center gap-4 pb-3">
                             <span class="m-0 p-0">
@@ -551,7 +553,7 @@
                                         stroke-width="1.03148" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </span>
-                            <h2 class="fs-18 fw-400 ff-plus text-white m-0 p-0">unlimited pages analysis/ year</h2>
+                            <p class="fs-18 fw-400 ff-plus text-grey-white m-0 p-0">unlimited pages analysis/ year</p>
                         </div>
                         <div class="d-flex align-items-center text-center gap-4 pb-3">
                             <span class="m-0 p-0">
@@ -561,7 +563,7 @@
                                         stroke-width="1.03148" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </span>
-                            <h2 class="fs-18 fw-400 ff-plus text-white m-0 p-0">Share up to 10 users</h2>
+                            <p class="fs-18 fw-400 ff-plus text-grey-white m-0 p-0">Share up to 10 users</p>
                         </div>
                         <div class="d-flex align-items-center text-center gap-4 pb-3">
                             <span class="m-0 p-0">
@@ -571,17 +573,17 @@
                                         stroke-width="1.03148" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </span>
-                            <h2 class="fs-18 fw-400 ff-plus text-white m-0 p-0">Maximum 100 pages per doc.</h2>
+                            <p class="fs-18 fw-400 ff-plus text-grey-white m-0 p-0">Maximum 100 pages per doc.</p>
                         </div>
-                        <ul class="d-flex align-items-center justify-content-center text-center mt-5 mb-5">
-                            <li><button class="btn-1 fs-16 fw-600 ff-plus text-white select">select</button></li>
+                        <ul class="d-flex align-items-center justify-content-center text-center mt-5 mb-5 m-0 p-0">
+                            <li><button class="common-btn fs-16 fw-600 ff-plus text-white select">select</button></li>
                         </ul>
                     </div>
                 </div>
                 <div
                     class="col-xl-4 col-lg-6 col-12 d-flex align-items-center justify-content-center flex-column m-0 p-0">
-                    <h6 class="fs-32 fw-600 ff-plus text-center text-white m-0 p-0">$0.99</h6>
-                    <h6 class="fs-20 fw-500 ff-plus text-center text-white m-0 p-0">Basic</h6>
+                    <p class="fs-32 fw-600 ff-plus text-center text-white m-0 p-0">$0.99</p>
+                    <p class="fs-20 fw-500 ff-plus text-center text-white m-0 p-0">Basic</p>
                     <div class="d-flex flex-column">
                         <div class="d-flex align-items-center text-center gap-4 pt-5 pb-3">
                             <span class="m-0 p-0">
@@ -591,7 +593,7 @@
                                         stroke-width="1.03148" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </span>
-                            <h2 class="fs-18 fw-400 ff-plus text-white m-0 p-0">3000 pages analysis/ year</h2>
+                            <p class="fs-18 fw-400 ff-plus text-grey-white m-0 p-0">3000 pages analysis/ year</p>
                         </div>
                         <div class="d-flex align-items-center text-center gap-4 pb-3">
                             <span class="m-0 p-0">
@@ -601,7 +603,7 @@
                                         stroke-width="1.03148" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </span>
-                            <h2 class="fs-18 fw-400 ff-plus text-white m-0 p-0">Share up to 2 users</h2>
+                            <p class="fs-18 fw-400 ff-plus text-grey-white m-0 p-0">Share up to 2 users</p>
                         </div>
                         <div class="d-flex align-items-center text-center gap-4 pb-3">
                             <span class="m-0 p-0">
@@ -611,10 +613,10 @@
                                         stroke-width="1.03148" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </span>
-                            <h2 class="fs-18 fw-400 ff-plus text-white m-0 p-0">Maximum 100 pages per doc.</h2>
+                            <p class="fs-18 fw-400 ff-plus text-grey-white m-0 p-0">Maximum 100 pages per doc.</p>
                         </div>
-                        <ul class="d-flex align-items-center justify-content-center text-center mt-5 mb-5">
-                            <li><button class="btn-1 fs-16 fw-600 ff-plus text-white select">select</button></li>
+                        <ul class="d-flex align-items-center justify-content-center text-center mt-5 mb-5 m-0 p-0">
+                            <li><button class="common-btn fs-16 fw-600 ff-plus text-white select">select</button></li>
                         </ul>
                     </div>
                 </div>
@@ -625,15 +627,16 @@
         <div class="container">
             <div class="row d-flex align-items-center justify-content-center text-center flex-column">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                    <h6 class="fs-44 fw-500 ff-plus text-center text-white m-0 p-0 pt-5 pb-3">Get started today!
-                    </h6>
-                    <h6 class="fs-16 fw-400 ff-plus text-center text-white max-width-6 m-0 p-0">Arcu egestas
-                        pellentesque velit facilisis in in. Tortor nisl urna lacus mauris adipiscing commodo purus.
-                        Lectus etiam arcu sagittis pellentesque hendrerit.</h6>
+                    <h2 class="fs-44 fw-500 ff-plus text-center text-white m-0 p-0 py-3">Get started today!
+                    </h2>
+                    <p class="fs-16 fw-400 ff-plus text-center text-grey-white max-width-6 m-0 p-0 py-3">Arcu
+                        egestas pellentesque velit facilisis in in. Tortor nisl urna lacus mauris adipiscing commodo
+                        purus. Lectus etiam arcu sagittis pellentesque hendrerit.</p>
                     <div class="d-flex align-items-center justify-content-center text-center m-0 p-0 mt-5 mb-5">
-                        <input class="email" type="text" placeholder="Enter your email here">
-                        <ul class="p-0">
-                            <li><button class="btn-1 fs-16 fw-600 ff-plus text-white Sign-up-now">Sign up now</button>
+                        <input class="email text-white px-4 py-3" type="text" placeholder="Enter your email here">
+                        <ul class="m-0 p-0">
+                            <li><button class="common-btn fs-16 fw-600 ff-plus text-white Sign-up-now">Sign up
+                                    now</button>
                             </li>
                         </ul>
                     </div>
@@ -643,11 +646,11 @@
     </section>
     <footer class="overflow-hidden bg-blue">
         <div class="container">
-            <div class="row d-flex mt-5 mb-5">
+            <div class="row d-flex py-5">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-12">
                     <img class="mb-4 object-fit-contain" src="./assets/images/iDox.ai-logo.png" alt="#">
-                    <h6 class="fs-14 fw-400 ff-plus text-white mb-4 max-width-7 m-0 p-0">Any system that works with
-                        API can be connected via APIcenter.</h6>
+                    <p class="fs-14 fw-400 ff-plus text-grey-white mb-4 max-width-7 m-0 p-0">Any system that works with
+                        API can be connected via APIcenter.</p>
                     <div class="d-flex align-items-center gap-3 m-0 p-0">
                         <span class="cursor-pointer">
                             <a href="https://www.facebook.com/">
@@ -712,55 +715,55 @@
                     </div>
                 </div>
                 <div class="col-lg-9 col-12">
-                    <div class="row d-flex justify-content-center pt-5">
+                    <div class="row d-flex justify-content-center">
                         <ul class="col-lg-2 col-md-4 col-6">
                             <li class="fs-16 fw-500 ff-plus text-white m-0 p-0">PRODUCTS</li>
                             <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pt-3 pb-2">iDox.ai Discovery</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pb-2">iDox.ai Redact</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pb-2">iDox.ai Compair</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pb-2">iDox.ai Review</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pb-2">Industries</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pb-2">Developer</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pb-2">iDox.ai Redact</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pb-2">iDox.ai Compair</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pb-2">iDox.ai Review</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pb-2">Industries</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pb-2">Developer</li>
                         </ul>
                         <ul class="col-lg-2 col-md-4 col-6">
                             <li class="fs-16 fw-500 ff-plus text-white m-0 p-0">store</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pt-3 pb-2">Choose a plan</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pb-2">Integrations</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pb-2">Pricing</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pb-2">News</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pt-3 pb-2">Choose a plan</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pb-2">Integrations</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pb-2">Pricing</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pb-2">News</li>
                         </ul>
                         <ul class="col-lg-2 col-md-4 col-6">
                             <li class="fs-16 fw-500 ff-plus text-white m-0 p-0">support</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pt-3 pb-2">Customer</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pt-3 pb-2">Customer</li>
                         </ul>
                         <ul class="col-lg-2 col-md-4 col-6">
                             <li class="fs-16 fw-500 ff-plus text-white m-0 p-0">COMPANY</li>
                             <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pt-3 pb-2">About Us</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pb-2">Security</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pb-2">Partnership</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pb-2">Careers</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pb-2">Privacy Policy</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pb-2">Terms of Services</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pb-2">Security</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pb-2">Partnership</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pb-2">Careers</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pb-2">Privacy Policy</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pb-2">Terms of Services</li>
                         </ul>
                         <ul class="col-lg-2 col-md-4 col-6">
                             <li class="fs-16 fw-500 ff-plus text-white m-0 p-0">ENTERPRISE</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pt-3 pb-2">Enterprise</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pt-3 pb-2">Enterprise</li>
                         </ul>
                         <ul class="col-lg-2 col-md-4 col-6">
                             <li class="fs-16 fw-500 ff-plus text-white m-0 p-0">RESOURCES</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pt-3 pb-2">Blog</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pb-2">Case Studies</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pb-2">eBooks</li>
-                            <li class="li-2 fs-16 fw-400 ff-plus text-white m-0 p-0 pb-2">Events</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pt-3 pb-2">Blog</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pb-2">Case Studies</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pb-2">eBooks</li>
+                            <li class="li-2 fs-16 fw-400 ff-plus text-grey-white m-0 p-0 pb-2">Events</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="mt-3">
+        <div class="py-3">
             <img src="./assets/images/Line-image.png" alt="#" class="w-100">
-            <h6 class="fs-16 fw-400 ff-plus text-center text-white m-0 p-0 py-3 px-5">2023 © Foxit Software
-                Incorporated. All rights reserved.</h6>
+            <p class="fs-16 fw-400 ff-plus text-center text-grey-white m-0 p-0">2023 © Foxit Software
+                Incorporated. All rights reserved.</p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
