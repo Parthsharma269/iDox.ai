@@ -102,5 +102,15 @@ $(".slider-2").slick({
                 centerPadding: "0px",
             }
         },
+        {
+            breakpoint: 320,
+            settings: {
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: "0px",
+            }
+        },
     ],
 });
