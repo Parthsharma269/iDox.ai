@@ -1525,6 +1525,105 @@
     }
 }
 
+@media (min-width:950px) {
+    :root {
+        --fs-14: 12px;
+        --fs-16: 12px;
+        --fs-20: 10px;
+        --fs-32: 20px;
+        --fs-44: 30px;
+        --fs-48: 31px;
+    }
+
+    .arrow-1 {
+        position: absolute;
+        top: 28%;
+        right: 68%;
+        transform: rotate(0deg);
+    }
+
+    .arrow-2 {
+        position: absolute;
+        top: 28%;
+        right: 38%;
+        transform: rotate(0deg);
+    }
+
+    .arrow-3 {
+        position: absolute;
+        top: 45%;
+        right: 51%;
+        transform: rotate(90deg);
+    }
+
+    .Ellipse-1 {
+        position: absolute;
+        top: 23%;
+        left: 0%;
+    }
+
+    .Ellipse-2 {
+        position: absolute;
+        top: -26%;
+        left: 48%;
+    }
+
+    .Ellipse-3 {
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        transform: rotate(180deg);
+    }
+
+    .Ellipse-4 {
+        position: absolute;
+        top: -15%;
+        left: -9%;
+    }
+
+    .Ellipse-5 {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+    }
+
+    .Ellipse-6 {
+        position: absolute;
+        top: 447%;
+        left: 47%;
+    }
+
+    .Ellipse-7 {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+
+    .Ellipse-8 {
+        position: absolute;
+        top: -15%;
+        left: 0%;
+    }
+
+    .Ellipse_8 {
+        position: absolute;
+        top: -9%;
+        left: 0%;
+    }
+
+    .Ellipse-9 {
+        position: absolute;
+        top: 31%;
+        left: 4%;
+    }
+
+    .Ellipse-10 {
+        position: absolute;
+        top: -38%;
+        left: 20%;
+    }
+}
+
 @media (max-width:992px) {
     label[for="menuicon"] {
         width: 50px;
