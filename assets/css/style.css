@@ -1427,104 +1427,6 @@
     }
 }
 
-@media (min-width:992px) {
-    :root {
-        --fs-14: 12px;
-        --fs-16: 12px;
-        --fs-20: 10px;
-        --fs-32: 20px;
-        --fs-44: 30px;
-        --fs-48: 31px;
-    }
-
-    .arrow-1 {
-        position: absolute;
-        top: 28%;
-        right: 68%;
-        transform: rotate(0deg);
-    }
-
-    .arrow-2 {
-        position: absolute;
-        top: 28%;
-        right: 38%;
-        transform: rotate(0deg);
-    }
-
-    .arrow-3 {
-        position: absolute;
-        top: 45%;
-        right: 51%;
-        transform: rotate(90deg);
-    }
-
-    .Ellipse-1 {
-        position: absolute;
-        top: 33%;
-    }
-
-    .Ellipse-2 {
-        position: absolute;
-        top: -26%;
-        left: 66%;
-    }
-
-    .Ellipse-3 {
-        position: absolute;
-        top: 5%;
-        left: 0%;
-        transform: rotate(180deg);
-    }
-
-    .Ellipse-4 {
-        position: absolute;
-        top: -15%;
-        left: -9%;
-    }
-
-    .Ellipse-5 {
-        position: absolute;
-        top: 0%;
-        left: 52%;
-    }
-
-    .Ellipse-6 {
-        position: absolute;
-        top: 475%;
-        left: 50%;
-    }
-
-    .Ellipse-7 {
-        position: absolute;
-        top: -5%;
-        left: 7%;
-    }
-
-    .Ellipse-8 {
-        position: absolute;
-        top: -22%;
-        left: 0%;
-    }
-
-    .Ellipse_8 {
-        position: absolute;
-        top: -15%;
-        left: 0%;
-    }
-
-    .Ellipse-9 {
-        position: absolute;
-        top: 31%;
-        left: 4%;
-    }
-
-    .Ellipse-10 {
-        position: absolute;
-        top: -38%;
-        left: 20%;
-    }
-}
-
 @media (min-width:950px) {
     :root {
         --fs-14: 12px;
@@ -1608,6 +1510,104 @@
     .Ellipse_8 {
         position: absolute;
         top: -9%;
+        left: 0%;
+    }
+
+    .Ellipse-9 {
+        position: absolute;
+        top: 31%;
+        left: 4%;
+    }
+
+    .Ellipse-10 {
+        position: absolute;
+        top: -38%;
+        left: 20%;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        --fs-14: 12px;
+        --fs-16: 12px;
+        --fs-20: 10px;
+        --fs-32: 20px;
+        --fs-44: 30px;
+        --fs-48: 31px;
+    }
+
+    .arrow-1 {
+        position: absolute;
+        top: 28%;
+        right: 68%;
+        transform: rotate(0deg);
+    }
+
+    .arrow-2 {
+        position: absolute;
+        top: 28%;
+        right: 38%;
+        transform: rotate(0deg);
+    }
+
+    .arrow-3 {
+        position: absolute;
+        top: 45%;
+        right: 51%;
+        transform: rotate(90deg);
+    }
+
+    .Ellipse-1 {
+        position: absolute;
+        top: 33%;
+    }
+
+    .Ellipse-2 {
+        position: absolute;
+        top: -26%;
+        left: 66%;
+    }
+
+    .Ellipse-3 {
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        transform: rotate(180deg);
+    }
+
+    .Ellipse-4 {
+        position: absolute;
+        top: -15%;
+        left: -9%;
+    }
+
+    .Ellipse-5 {
+        position: absolute;
+        top: 0%;
+        left: 52%;
+    }
+
+    .Ellipse-6 {
+        position: absolute;
+        top: 475%;
+        left: 50%;
+    }
+
+    .Ellipse-7 {
+        position: absolute;
+        top: -5%;
+        left: 7%;
+    }
+
+    .Ellipse-8 {
+        position: absolute;
+        top: -22%;
+        left: 0%;
+    }
+
+    .Ellipse_8 {
+        position: absolute;
+        top: -15%;
         left: 0%;
     }
 
@@ -1948,99 +1948,6 @@
         position: absolute;
         top: 20%;
         left: 16%;
-    }
-
-    .Ellipse-10 {
-        position: absolute;
-        top: -38%;
-        left: 20%;
-    }
-}
-
-@media (min-width:1024px) {
-    :root {
-        --fs-32: 20px;
-    }
-
-    .arrow-1 {
-        position: absolute;
-        top: 27%;
-        right: 68%;
-        transform: rotate(0deg);
-    }
-
-    .arrow-2 {
-        position: absolute;
-        top: 27%;
-        right: 37%;
-        transform: rotate(0deg);
-    }
-
-    .arrow-3 {
-        position: absolute;
-        top: 45%;
-        right: 52%;
-        transform: rotate(89deg);
-    }
-
-    .Ellipse-1 {
-        position: absolute;
-        top: 35%;
-    }
-
-    .Ellipse-2 {
-        position: absolute;
-        top: -25%;
-        left: 55%;
-    }
-
-    .Ellipse-3 {
-        position: absolute;
-        top: 10%;
-        left: 0%;
-        transform: rotate(180deg);
-    }
-
-    .Ellipse-4 {
-        position: absolute;
-        top: -15%;
-        left: 0%;
-    }
-
-    .Ellipse-5 {
-        position: absolute;
-        top: 0%;
-        left: 54%;
-    }
-
-    .Ellipse-6 {
-        position: absolute;
-        top: 490%;
-        left: 51%;
-    }
-
-    .Ellipse-7 {
-        position: absolute;
-        top: -5%;
-        left: 10%;
-    }
-
-    .Ellipse-8 {
-        position: absolute;
-        top: -25%;
-        left: 0%;
-    }
-
-    .Ellipse_8 {
-        position: absolute;
-        top: -15%;
-        left: 0%;
-    }
-
-    .Ellipse-9 {
-        position: absolute;
-        top: 20%;
-        left: 0%;
     }
 
     .Ellipse-10 {
