@@ -278,10 +278,12 @@
 
 .border-bottom-1 {
     border-bottom: 1.5px solid #35414C;
+    cursor: pointer;
 }
 
 .border-right-1 {
     border-right: 1.5px solid #35414C;
+    cursor: pointer;
 }
 
 @media (min-width:320px) {
