@@ -318,7 +318,7 @@
 
     .Ellipse-1 {
         position: absolute;
-        top: 5%;
+        top: 0%;
         left: -55%;
     }
 
@@ -331,7 +331,7 @@
     .Ellipse-3 {
         position: absolute;
         top: 10%;
-        left: 0%;
+        left: -128%;
         transform: rotate(180deg);
     }
 
@@ -361,20 +361,20 @@
 
     .Ellipse-8 {
         position: absolute;
-        top: -14%;
+        top: -5%;
         left: 0%;
     }
 
     .Ellipse_8 {
         position: absolute;
-        top: -11%;
+        top: -5%;
         left: 0%;
     }
 
     .Ellipse-9 {
         position: absolute;
-        top: 20%;
-        left: 16%;
+        top: 50%;
+        left: -100%;
     }
 
     .Ellipse-10 {
@@ -417,8 +417,8 @@
 
     .Ellipse-1 {
         position: absolute;
-        top: 15%;
-        left: -32%;
+        top: 5%;
+        left: -20%;
     }
 
     .Ellipse-2 {
@@ -436,19 +436,19 @@
 
     .Ellipse-4 {
         position: absolute;
-        top: -3%;
-        left: -5%;
+        top: 31%;
+        left: -50%;
     }
 
     .Ellipse-5 {
         position: absolute;
-        top: -20%;
+        top: -10%;
         left: -27%;
     }
 
     .Ellipse-6 {
         position: absolute;
-        top: 540%;
+        top: 375%;
         left: -34%;
     }
 
@@ -460,13 +460,13 @@
 
     .Ellipse-8 {
         position: absolute;
-        top: -13%;
+        top: -5%;
         left: 0%;
     }
 
     .Ellipse_8 {
         position: absolute;
-        top: -10%;
+        top: -5%;
         left: 0%;
     }
 
@@ -616,7 +616,7 @@
 
     .Ellipse-1 {
         position: absolute;
-        top: 5%;
+        top: 0%;
         left: -50%;
     }
 
@@ -653,26 +653,26 @@
 
     .Ellipse-7 {
         position: absolute;
-        top: 13%;
+        top: 30%;
         left: -65%;
     }
 
     .Ellipse-8 {
         position: absolute;
-        top: -15%;
+        top: -5%;
         left: 0%;
     }
 
     .Ellipse_8 {
         position: absolute;
-        top: -10%;
+        top: -5%;
         left: 0%;
     }
 
     .Ellipse-9 {
         position: absolute;
-        top: 20%;
-        left: 16%;
+        top: 45%;
+        left: -45%;
     }
 
     .Ellipse-10 {
@@ -1179,38 +1179,38 @@
 
     .Ellipse-1 {
         position: absolute;
-        top: 20%;
-        left: -20%;
+        top: 13%;
+        left: -10%;
     }
 
     .Ellipse-2 {
         position: absolute;
-        top: -26%;
-        left: 66%;
+        top: -13%;
+        left: 35%;
     }
 
     .Ellipse-3 {
         position: absolute;
-        top: 10%;
+        top: -10%;
         left: 0%;
         transform: rotate(180deg);
     }
 
     .Ellipse-4 {
         position: absolute;
-        top: -25%;
-        left: -20%;
+        top: -20%;
+        left: -40%;
     }
 
     .Ellipse-5 {
         position: absolute;
-        top: -25%;
+        top: -20%;
         left: 38%;
     }
 
     .Ellipse-6 {
         position: absolute;
-        top: 545%;
+        top: 580%;
         left: 35%;
     }
 
@@ -1222,20 +1222,20 @@
 
     .Ellipse-8 {
         position: absolute;
-        top: -39%;
+        top: -5%;
         left: 0%;
     }
 
     .Ellipse_8 {
         position: absolute;
-        top: -23%;
+        top: -5%;
         left: 0%;
     }
 
     .Ellipse-9 {
         position: absolute;
-        top: 20%;
-        left: 16%;
+        top: 50%;
+        left: 0%;
     }
 
     .Ellipse-10 {
@@ -1698,7 +1698,7 @@
 
     .Ellipse-1 {
         position: absolute;
-        top: 45%;
+        top: 31%;
     }
 
     .Ellipse-2 {
@@ -1709,51 +1709,51 @@
 
     .Ellipse-3 {
         position: absolute;
-        top: 10%;
+        top: -5%;
         left: 0%;
         transform: rotate(180deg);
     }
 
     .Ellipse-4 {
         position: absolute;
-        top: -3%;
+        top: -13%;
         left: -5%;
     }
 
     .Ellipse-5 {
         position: absolute;
-        top: 20%;
-        left: 70%;
+        top: -10%;
+        left: 54%;
     }
 
     .Ellipse-6 {
         position: absolute;
         top: 490%;
-        left: 65%;
+        left: 51%;
     }
 
     .Ellipse-7 {
         position: absolute;
-        top: -15%;
-        left: 19%;
+        top: 5%;
+        left: 10%;
     }
 
     .Ellipse-8 {
         position: absolute;
-        top: -39%;
+        top: -13%;
         left: 0%;
     }
 
     .Ellipse_8 {
         position: absolute;
-        top: -23%;
+        top: -9%;
         left: 0%;
     }
 
     .Ellipse-9 {
         position: absolute;
-        top: 20%;
-        left: 16%;
+        top: 50%;
+        left: 0%;
     }
 
     .Ellipse-10 {
@@ -1991,13 +1991,13 @@
 
     .Ellipse-2 {
         position: absolute;
-        top: -26%;
+        top: -13%;
         left: 66%;
     }
 
     .Ellipse-3 {
         position: absolute;
-        top: 10%;
+        top: 0%;
         left: 0%;
         transform: rotate(180deg);
     }
@@ -2010,7 +2010,7 @@
 
     .Ellipse-5 {
         position: absolute;
-        top: 20%;
+        top: 10%;
         left: 70%;
     }
 
@@ -2028,13 +2028,13 @@
 
     .Ellipse-8 {
         position: absolute;
-        top: -39%;
+        top: -25%;
         left: 0%;
     }
 
     .Ellipse_8 {
         position: absolute;
-        top: -23%;
+        top: -10%;
         left: 0%;
     }
 
