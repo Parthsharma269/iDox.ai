@@ -1963,6 +1963,7 @@
 
 @media (min-width:1440px) {
     :root {
+        --fs-20: 20px;
         --fs-32: 20px;
     }
 
