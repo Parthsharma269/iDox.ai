@@ -2054,3 +2054,54 @@
         left: 20%;
     }
 }
+
+@media (min-width:1920px) {
+    .Ellipse-1 {
+        position: absolute;
+        top: 37%;
+        left: 3%;
+    }
+
+    .Ellipse-2 {
+        position: absolute;
+        top: -8%;
+        left: 75%;
+    }
+
+    .Ellipse-3 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        transform: rotate(180deg);
+    }
+
+    .Ellipse-4 {
+        position: absolute;
+        top: -3%;
+        left: 13%;
+    }
+
+    .Ellipse-5 {
+        position: absolute;
+        top: -6%;
+        left: 76%;
+    }
+
+    .Ellipse-6 {
+        position: absolute;
+        top: 435%;
+        left: 74%;
+    }
+
+    .Ellipse-7 {
+        position: absolute;
+        top: -9%;
+        left: 28%;
+    }
+
+    .Ellipse-10 {
+        position: absolute;
+        top: -25%;
+        left: 25%;
+    }
+}
