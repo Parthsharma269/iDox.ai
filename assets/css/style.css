@@ -90,6 +90,16 @@
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+.container-fluid-X {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .bg-img-header {
     background-image: url(../images/bg-img-header.png);
     background-repeat: no-repeat;
@@ -167,6 +177,14 @@
     max-width: 481.86px;
 }
 
+.max-width-9 {
+    max-width: 515.857px;
+}
+
+.max-width-10 {
+    max-width: 520px;
+}
+
 .common-btn {
     display: inline-flex;
     padding: 13px 32px;
@@ -182,7 +200,7 @@
 
 .email {
     border: none;
-    padding: 1px 128px 1px 33.713px;
+    padding: 35px;
     border-radius: 29px;
     background-color: #13242F;
     outline: none;
@@ -196,6 +214,10 @@
     top: -20px;
     left: 16px;
     transition: all 250ms linear;
+}
+
+.pl-93 {
+    padding-left: 93px;
 }
 
 .slick-dots li button::before {
@@ -808,8 +830,7 @@
     .arrow-3 {
         position: absolute;
         top: 67%;
-        right: 70%;
-        transform: rotate(90deg);
+        right: -100%;
     }
 
     .Ellipse-1 {
@@ -1428,6 +1449,105 @@
     }
 }
 
+@media (min-width:925px) {
+    :root {
+        --fs-14: 12px;
+        --fs-16: 8px;
+        --fs-20: 15px;
+        --fs-32: 20px;
+        --fs-44: 30px;
+        --fs-48: 26px;
+    }
+
+    .arrow-1 {
+        position: absolute;
+        top: 28%;
+        right: 55%;
+        transform: rotate(0deg);
+    }
+
+    .arrow-2 {
+        position: absolute;
+        top: 60%;
+        right: 55%;
+        transform: rotate(0deg);
+    }
+
+    .arrow-3 {
+        position: absolute;
+        top: 45%;
+        right: 100%;
+        transform: rotate(90deg);
+    }
+
+    .Ellipse-1 {
+        position: absolute;
+        top: 23%;
+        left: 0%;
+    }
+
+    .Ellipse-2 {
+        position: absolute;
+        top: -10%;
+        left: 48%;
+    }
+
+    .Ellipse-3 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        transform: rotate(180deg);
+    }
+
+    .Ellipse-4 {
+        position: absolute;
+        top: -20%;
+        left: -9%;
+    }
+
+    .Ellipse-5 {
+        position: absolute;
+        top: -20%;
+        left: 50%;
+    }
+
+    .Ellipse-6 {
+        position: absolute;
+        top: 617%;
+        left: 46%;
+    }
+
+    .Ellipse-7 {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+
+    .Ellipse-8 {
+        position: absolute;
+        top: -5%;
+        left: 0%;
+    }
+
+    .Ellipse_8 {
+        position: absolute;
+        top: -5%;
+        left: 0%;
+    }
+
+    .Ellipse-9 {
+        position: absolute;
+        top: 31%;
+        left: 4%;
+    }
+
+    .Ellipse-10 {
+        position: absolute;
+        top: -38%;
+        left: 20%;
+    }
+}
+
 @media (min-width:950px) {
     :root {
         --fs-14: 12px;
@@ -1441,21 +1561,21 @@
     .arrow-1 {
         position: absolute;
         top: 28%;
-        right: 68%;
+        right: 55%;
         transform: rotate(0deg);
     }
 
     .arrow-2 {
         position: absolute;
-        top: 28%;
-        right: 38%;
+        top: 60%;
+        right: 55%;
         transform: rotate(0deg);
     }
 
     .arrow-3 {
         position: absolute;
         top: 45%;
-        right: 51%;
+        right: 100%;
         transform: rotate(90deg);
     }
 
@@ -1511,6 +1631,104 @@
     .Ellipse_8 {
         position: absolute;
         top: -9%;
+        left: 0%;
+    }
+
+    .Ellipse-9 {
+        position: absolute;
+        top: 31%;
+        left: 4%;
+    }
+
+    .Ellipse-10 {
+        position: absolute;
+        top: -38%;
+        left: 20%;
+    }
+}
+
+@media (min-width:900px) {
+    :root {
+        --fs-14: 12px;
+        --fs-16: 12px;
+        --fs-20: 10px;
+        --fs-32: 20px;
+        --fs-44: 30px;
+        --fs-48: 31px;
+    }
+
+    .arrow-1 {
+        position: absolute;
+        top: 28%;
+        right: 55%;
+        transform: rotate(0deg);
+    }
+
+    .arrow-2 {
+        position: absolute;
+        top: 60%;
+        right: 55%;
+        transform: rotate(0deg);
+    }
+
+    .arrow-3 {
+        position: absolute;
+        top: 45%;
+        right: 100%;
+        transform: rotate(90deg);
+    }
+
+    .Ellipse-1 {
+        position: absolute;
+        top: 33%;
+    }
+
+    .Ellipse-2 {
+        position: absolute;
+        top: -26%;
+        left: 66%;
+    }
+
+    .Ellipse-3 {
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        transform: rotate(180deg);
+    }
+
+    .Ellipse-4 {
+        position: absolute;
+        top: -15%;
+        left: -9%;
+    }
+
+    .Ellipse-5 {
+        position: absolute;
+        top: 0%;
+        left: 52%;
+    }
+
+    .Ellipse-6 {
+        position: absolute;
+        top: 600%;
+        left: 44%;
+    }
+
+    .Ellipse-7 {
+        position: absolute;
+        top: 15%;
+        left: 7%;
+    }
+
+    .Ellipse-8 {
+        position: absolute;
+        top: -22%;
+        left: 0%;
+    }
+
+    .Ellipse_8 {
+        position: absolute;
+        top: -15%;
         left: 0%;
     }
 
@@ -1963,6 +2181,7 @@
 
 @media (min-width:1440px) {
     :root {
+        --fs-14: 14px;
         --fs-20: 20px;
         --fs-32: 20px;
     }
@@ -2021,7 +2240,7 @@
 
     .Ellipse-6 {
         position: absolute;
-        top: 510%;
+        top: 525%;
         left: 65%;
     }
 
@@ -2033,7 +2252,7 @@
 
     .Ellipse-8 {
         position: absolute;
-        top: -25%;
+        top: -22%;
         left: 0%;
     }
 
