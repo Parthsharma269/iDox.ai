@@ -241,7 +241,7 @@
     position: absolute;
     width: 20px;
     height: 20px;
-    content: '•';
+    content: " " !important;
     text-align: center;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
