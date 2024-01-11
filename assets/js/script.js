@@ -1,70 +1,18 @@
 $(".slider").slick({
     dots: false,
     infinite: true,
-    speed: 3000,
+    speed: 555,
     autoplay: true,
     cssEase: "Linear",
     slidesToShow: 8,
     slidesToScroll: 1,
     arrows: false,
-    responsive: [
-        {
-            breakpoint: 1300,
-            settings: {
-                slidesToShow: 5,
-                autoplay: true,
-                speed: 250,
-                slidesToShow: 8,
-                slidesToScroll: 1,
-                cssEase: "Linear",
-                infinite: true,
-                dots: false,
-            },
-        },
-        {
-            breakpoint: 900,
-            settings: {
-                slidesToShow: 8,
-                slidesToScroll: 1,
-                autoplay: true,
-                infinite: true,
-                cssEase: "Linear",
-            },
-        },
-        {
-            breakpoint: 650,
-            settings: {
-                slidesToShow: 8,
-                slidesToScroll: 1,
-                infinite: true,
-                cssEase: "Linear",
-            },
-        },
-        {
-            breakpoint: 580,
-            settings: {
-                slidesToShow: 8,
-                slidesToScroll: 1,
-                infinite: true,
-                cssEase: "Linear",
-            },
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 8,
-                slidesToScroll: 1,
-                infinite: true,
-                cssEase: "Linear",
-            },
-        },
-    ],
 });
 
 $(".slider-2").slick({
     autoplay: true,
     infinite: true,
-    speed: 250,
+    speed: 555,
     cssEase: "Linear",
     centerMode: true,
     centerPadding: "240px",
