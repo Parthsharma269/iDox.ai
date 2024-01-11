@@ -9,9 +9,7 @@
 }
 
 :root {
-
     /* font-size */
-
     --fs-14: 14px;
     --fs-15: 15px;
     --fs-16: 16px;
@@ -20,17 +18,13 @@
     --fs-32: 32px;
     --fs-44: 44px;
     --fs-48: 48px;
-
     /* font-weight */
-
     --fw-300: 300;
     --fw-400: 400;
     --fw-500: 500;
     --fw-600: 600;
     --fw-700: 700;
-
     /* font-family */
-
     --ff-plus: "Plus Jakarta Sans", sans-serif;
 }
 
@@ -196,8 +190,6 @@
     border: none;
     background: linear-gradient(160deg, #0088ff94 -14.36%, #0069E3 113.71%);
     box-shadow: 0px 4px 32px 0px #2746ed80;
-    cursor: pointer;
-    overflow: hidden;
 }
 
 .email {
