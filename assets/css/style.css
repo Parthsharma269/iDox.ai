@@ -314,6 +314,7 @@
 
 .position-sticky {
     position: sticky;
+    background-color: #030C16;
     top: 0;
     z-index: 3;
     border: none;
