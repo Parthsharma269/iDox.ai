@@ -86,7 +86,7 @@
 
 .container-fluid-X {
     --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
+    --bs-gutter-y: 11.5rem;
     width: 100%;
     padding-right: 0 !important;
     padding-left: 0 !important;
@@ -310,6 +310,15 @@
 .border-right-1 {
     border-right: 1.5px solid #35414C;
     cursor: pointer;
+}
+
+.position-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    border: none;
+    outline: none;
+    overflow: hidden;
 }
 
 @media (min-width:320px) {
@@ -926,6 +935,31 @@
 
     .pl-93 {
         padding: 0;
+    }
+}
+
+@media (min-width:576px) {
+    :root {
+        --fs-32: 12px;
+        --fs-48: 19px;
+    }
+
+    .arrow-1-d-n {
+        display: none;
+    }
+
+    .arrow-2-d-n {
+        display: none;
+    }
+
+    .arrow-3-d-n {
+        display: none;
+    }
+
+    .Ellipse-6 {
+        position: absolute;
+        top: 285%;
+        left: 13%;
     }
 }
 
@@ -1683,7 +1717,7 @@
         --fs-20: 10px;
         --fs-32: 20px;
         --fs-44: 30px;
-        --fs-48: 31px;
+        --fs-48: 26px;
     }
 
     .arrow-1 {
@@ -1709,7 +1743,7 @@
 
     .Ellipse-1 {
         position: absolute;
-        top: 33%;
+        top: 15%;
     }
 
     .Ellipse-2 {
@@ -1733,14 +1767,14 @@
 
     .Ellipse-5 {
         position: absolute;
-        top: 0%;
+        top: -15%;
         left: 52%;
     }
 
     .Ellipse-6 {
         position: absolute;
-        top: 600%;
-        left: 44%;
+        top: 280%;
+        left: 45%;
     }
 
     .Ellipse-7 {
@@ -1751,13 +1785,13 @@
 
     .Ellipse-8 {
         position: absolute;
-        top: -22%;
+        top: -5%;
         left: 0%;
     }
 
     .Ellipse_8 {
         position: absolute;
-        top: -15%;
+        top: -5%;
         left: 0%;
     }
 
